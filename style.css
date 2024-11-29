@@ -84,3 +84,71 @@ nav form button{
     padding: 0.5rem;
     border-radius: 10rem;
 }
+/* Small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .weather_cont {
+        padding: 1rem;
+    }
+    .temprature {
+        font-size: 2.5rem;
+    }
+    .time_location, .condition {
+        font-size: 1rem;
+    }
+    .search_area {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+    nav form button {
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+}
+
+/* Medium devices (tablets, 600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .temprature {
+        font-size: 3.5rem;
+    }
+    .time_location {
+        font-size: 1.5rem;
+    }
+    .search_area {
+        font-size: 1rem;
+        width: 95%;
+    }
+    nav form button {
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media (min-width: 1025px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .temprature {
+        font-size: 4.5rem;
+    }
+    .time_location {
+        font-size: 2rem;
+    }
+    .search_area {
+        font-size: 1.1rem;
+        width: 98%;
+    }
+    nav form button {
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+}
